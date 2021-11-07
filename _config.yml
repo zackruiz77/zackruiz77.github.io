@@ -1,9 +1,8 @@
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Zack's homepage
-description: Come back soon to look at my current projects!
+- jekyll-remote-theme
 show_downloads: false
 google_analytics:
 github:
+  repository_name: Zack's homepage
   project_tagline: Come back soon to look at my current projects!
