@@ -1,6 +1,5 @@
 <body>
-    <button onclick="window.location.href='https://zruiz.com/snippets';">
-        Useful code snippets
-    </button>
+    <a href="https://zruiz.com/snippets" class="btn">Useful code snippets</a>
+<br>
 **Site under construction, check back later!**
 </body>
