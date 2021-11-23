@@ -7,6 +7,7 @@ permalink: /snippets/
 
 <br>
 <table>
+    <caption>Table of Contents</caption>
     <td><a href="#WU_Reset">Reset Windows Update</a></td>
 <table>
 <br>

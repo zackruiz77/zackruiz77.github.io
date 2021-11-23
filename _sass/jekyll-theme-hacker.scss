@@ -183,6 +183,15 @@ code.highlighter-rouge {
 table {
   margin: 0 0 20px 0;
   border: 1px solid gray;
+  counter-reset: rowNumber;
+}
+
+table tr::before {
+  display: table-cell;
+  counter-increment: rowNumber;
+  content: counter(rowNumber) ".";
+  padding-right: 0.3em;
+  text-align: right;
 }
 
 th {
