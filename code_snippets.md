@@ -4,8 +4,15 @@ title: "Code snippets"
 permalink: /snippets/
 ---
 **Coming soon, some of the useful snippets I've come across**
+
 <br>
-Reset Windows Update
+<table>
+    <td><a href="#WU_Reset">Reset Windows Update</a></td>
+<table>
+<br>
+
+<a id="WU_Reset">Reset Windows Update
+
 {% highlight powershell %}
 Stop-Service -Name wuauserv
 Remove-Item $env:systemroot\SoftwareDistribution -Recurse -Force
