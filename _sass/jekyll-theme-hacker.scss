@@ -181,7 +181,7 @@ code.highlighter-rouge {
 }
 
 table {
-  margin: 0 0 20px 0;
+  /*margin: 0 0 20px 0;*/
   border: 1px solid gray;
   counter-reset: rowNumber;
 }
@@ -197,12 +197,12 @@ table tr::before {
 th {
   text-align: left;
   border-bottom: 1px dashed #b5e853;
-  padding: 5px 10px;
+  /*padding: 5px 10px;*/
 }
 
-td {
+/*td {
   padding: 5px 10px;
-}
+}*/
 
 hr {
   height: 0;
