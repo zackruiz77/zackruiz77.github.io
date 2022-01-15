@@ -8,10 +8,8 @@
     <a href="https://zruiz.com/" class="btn">Current projects (available soon)</a>
     <br>
     <br>
-    <a href="https://zruiz.com/" class="btn">Contact me (available soon)</a>
+    Contact me via email using info@ this domain.com (have to stop spam bots!)</a>
 
 <br>
 **Site under construction, check back later!**
-
-Contact info coming soon - feel free to leave an issue with your contact information in the mean time.
 </body>
