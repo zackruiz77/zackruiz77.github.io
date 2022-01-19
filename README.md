@@ -8,8 +8,8 @@
     <a href="https://zruiz.com/" class="btn">Current projects (available soon)</a>
     <br>
     <br>
-    Contact me via email using [info@ this domain.com] (have to stop spam bots!)
+    Contact me via email using info@[<em>thisDomain.com</em>] for job or networking inquiries.
 
 <br>
-**Site under construction, check back later!**
+**Site under construction, check back often!**
 </body>

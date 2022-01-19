@@ -15,8 +15,8 @@ permalink: /snippets/
 <a id="WU_Reset">Reset Windows Update
 
 {% highlight powershell %}
-Stop-Service -Name wuauserv
+Stop-Service -Name wuauserv #May take multiple runs, sometimes WU service doesn't want to stop
 Remove-Item $env:systemroot\SoftwareDistribution -Recurse -Force
-Remove-Item $env:systemroot\WindowsUpdate.log
+Remove-Item $env:systemroot\WindowsUpdate.log #Optional, if logs aren't needed
 Start-Service -Name wuauserv
 {% endhighlight %}
