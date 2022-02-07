@@ -2,7 +2,7 @@
     <a href="https://zruiz.com/snippets" class="btn">Useful code snippets</a>
     <br>
     <br>
-    <a href="https://zruiz.com/assets/resume.pdf" class="btn">Résumé - 2022-01-14</a>
+    <a href="https://zruiz.com/assets/resume.pdf" class="btn">Résumé - 2022-02-274</a>
     <br>
     <br>
     <a href="https://zruiz.com/" class="btn">Current projects (available soon)</a>
