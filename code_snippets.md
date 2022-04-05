@@ -7,10 +7,12 @@ permalink: /snippets/
 
 <br>
 <table>
+<tbody>
     <caption>Table of Contents</caption>
-    <tr><a href="#WU_Reset">Reset Windows Update</a></tr>
-    <tr><a href="#Get_user_emails">Get user names and emails</a></tr>
-    <tr><a href="#Get_AD_modifications">Get last modified times for AD object</a></tr>
+    <tr><td><a href="#WU_Reset">Reset Windows Update</a></td></tr>
+    <tr><td><a href="#Get_user_emails">Get user names and emails</a></td></tr>
+    <tr><td><a href="#Get_AD_modifications">Get last modified times for AD object</a></td></tr>
+</tbody>
 </table>
 <br>
 
