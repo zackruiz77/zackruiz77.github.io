@@ -24,10 +24,15 @@ Start-Service -Name wuauserv
 
 <a id="Get_user_emails">Get user names and emails
 {% highlight powershell %}
-Get-ADGroupMember -recursive -identity '[target group]' | Get-ADUser | Select-Object name,userprincipalname | Export-CSV -notypeinformation C:\temp\user_emails.csv #Enter your target group and output location
+Get-ADGroupMember -recursive -identity '[target group]' `
+ | Get-ADUser `
+ | Select-Object name,userprincipalname `
+ | Export-CSV -notypeinformation C:\temp\user_emails.csv #Enter your target group and output location
 {% endhighlight %}
 
 <a id="Get_AD_modifications">Get last modified times for AD object
 {% highlight powershell %}
-Get-ADReplicationAttributeMetadata -object (Get-ADUser -identity [account name]) -server [DC name] | Select-Object attributename,attributevalue,LastOriginatingChangeTime | Format-Table #Enter your target user and domain controller
+Get-ADReplicationAttributeMetadata -object (Get-ADUser -identity [account name]) -server [DC name] `
+ | Select-Object attributename,attributevalue,LastOriginatingChangeTime `
+ | Format-Table #Enter your target user and domain controller
 {% endhighlight %}
