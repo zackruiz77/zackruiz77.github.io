@@ -8,9 +8,9 @@ permalink: /snippets/
 <br>
 <table>
     <caption>Table of Contents</caption>
-    <td><a href="#WU_Reset">Reset Windows Update</a></td>
-    <td><a href="#Get_user_emails">Get user names and emails</a></td>
-    <td><a href="#Get_AD_modifications">Get last modified times for AD object</a></td>
+    <tr><a href="#WU_Reset">Reset Windows Update</a></tr>
+    <tr><a href="#Get_user_emails">Get user names and emails</a></tr>
+    <tr><a href="#Get_AD_modifications">Get last modified times for AD object</a></tr>
 </table>
 <br>
 
